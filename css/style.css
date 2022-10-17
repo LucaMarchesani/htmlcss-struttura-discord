@@ -4,78 +4,135 @@
     box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    height: 4rem;
-    background-color: #84b8df;
-}
-
 .container{
     display: flex;
-    width: 70%;
+    width: 75%;
     height: 100%;
     margin: 0 auto;
     justify-content: center;
-}
-
-.container.header{
-    
     align-items: center;
 }
 
-.top{
-    background-color: #daa520;
-    border: .1rem dashed black;
-    height: 2.5rem;
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
-.logo, 
+.container.top{
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.container.top>img{
+    width: 7rem;
+
+}
+
+.container.links{
+    list-style: none;
+    justify-content: space-around;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.button{
+    padding: .5rem 1rem;
+    border-style: none;
+    border-radius: 2rem;
+}
+
 .login{
-    width: 20%;
+    background-color: white;
+    color: black;
 }
 
-.link{
-    width: 50%;
+.head-text{
+    padding: 5rem 0 7.5rem;
+    text-align: center;
+    color: white;
 }
 
-.container.main{
-    background-color: #0000ff;
-    align-items: center;
+.head-text>p{
+    padding: 2.5rem 0;
+    font-size: .9rem;
 }
 
-.container.main>div{
+.button.mac{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.button.browser{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.container.middle{
+    padding: 7.5rem 0;
+}
+
+.bg-grey{
+    padding: 2rem 0;
+    background-color: grey;
+}
+
+.img{
     width: 60%;
-    height: 20rem;
-    margin: 2rem;
-    border: .1rem dashed black;
+    height: 400px;
     background-color: blueviolet;
 }
 
-.item{
-    margin: 2rem 0 2rem;
-    border: .1rem dashed black;
-
-}
-
-.item.first{
-    width: 50%;
-    height: 25rem;
-    background-color: pink;
-
-}
-
-.item.second{
-    width: 30%;
-    height: 25rem;
-    background-color: aqua;
-
-}
-
-.item.bottom{
-    width: 80%;
+.text{
+    width: 40%;
+    height: 400px;
     background-color: green;
-    border: .1rem dashed black;
-    height: 50rem;
+}
+
+.main-end{
+    margin: 0 auto 2rem;
+    width: 75%;
+    height: 800px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(27, 26, 26);
+    padding: 1rem 0;
 
 }
+
+aside{
+    width: 30%;
+    height: 400px;
+    background-color: chartreuse;
+}
+
+.list{
+    border: .1rem dashed black;
+    width: 20%;
+    height: 400px;
+    background-color: pink;
+}
+
+.container.footer2{
+    border: .2rem solid gray;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: darkcyan;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
 
