@@ -15,10 +15,11 @@ header{
     width: 70%;
     height: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .container.header{
-    justify-content: center;
+    
     align-items: center;
 }
 
@@ -34,20 +35,47 @@ header{
 }
 
 .link{
-    width: 60%;
+    width: 50%;
 }
 
 .container.main{
     background-color: #0000ff;
-    justify-content: center;
     align-items: center;
 }
 
 .container.main>div{
-    width: 70%;
-    height: 12rem;
+    width: 60%;
+    height: 20rem;
     margin: 2rem;
     border: .1rem dashed black;
     background-color: blueviolet;
+}
+
+.item{
+    margin: 2rem 0 2rem;
+    border: .1rem dashed black;
+
+}
+
+.item.first{
+    width: 50%;
+    height: 25rem;
+    background-color: pink;
+
+}
+
+.item.second{
+    width: 30%;
+    height: 25rem;
+    background-color: aqua;
+
+}
+
+.item.bottom{
+    width: 80%;
+    background-color: green;
+    border: .1rem dashed black;
+    height: 50rem;
+
 }
 
